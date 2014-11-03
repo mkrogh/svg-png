@@ -1,0 +1,9 @@
+.wrapper{
+  margin: auto;
+  max-width: 570px;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}

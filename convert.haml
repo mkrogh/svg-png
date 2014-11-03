@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %title Convert to PNG
+    %link{rel: "stylesheet", type: "text/css", href: "//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css"}
+    %link{rel: "stylesheet", type: "text/css", href: "convert.css"}
+  %body
+    .wrapper
+      .pure-g
+        .pure-u-1
+          %h1 Convert image to png
+          %form.pure-form
+            %fieldset
+              %input{type: "file"}
+        .pure-u-1
+          %canvas
+        .pure-u-1
+          %a.pure-button#download{hidden: true} Download
+    %script{type: "text/javascript", src: "convert.js"}
