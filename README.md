@@ -3,6 +3,7 @@ Convert to png
 
 A simple html page for converting e.g. SVG files to png.
 
+Visit: [mkrogh.github.io/svg-png](https://mkrogh.github.io/svg-png/)
 Usage
 -----
 
