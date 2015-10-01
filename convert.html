@@ -2,25 +2,29 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <title>Convert to PNG</title>
-    <link href='//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css' rel='stylesheet' type='text/css'>
+    <title>SVG to PNG Converter</title>
     <link href='convert.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <a href='https://github.com/mkrogh/svg-png'>
+      <img alt='Fork me on GitHub' class='fork' data-canonical-src='https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png' src='https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67'>
+    </a>
     <div class='wrapper'>
-      <div class='pure-g'>
-        <div class='pure-u-1'>
-          <h1>Convert image to png</h1>
-          <form class='pure-form'>
-            <fieldset>
-              <input type='file'>
-            </fieldset>
-          </form>
-        </div>
-        <div class='pure-u-1'>
+      <div class='page'>
+        <h1>Convert SVG (or other images) to png</h1>
+        <p>
+          Through the magic of your browser you can convert SVG images to PNG.
+          Just browse to your SVG, and see the preview, then click the Download button.
+        </p>
+        <form>
+          <fieldset>
+            <input type='file'>
+          </fieldset>
+        </form>
+        <div class='canvas'>
           <canvas></canvas>
         </div>
-        <div class='pure-u-1'>
+        <div class='download'>
           <a class='pure-button' hidden id='download'>Download</a>
         </div>
       </div>
