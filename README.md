@@ -7,7 +7,7 @@ Visit: [mkrogh.github.io/svg-png](https://mkrogh.github.io/svg-png/)
 Usage
 -----
 
-- Run from a webserver (to allow loading files from disk).
+- Run from a webserver (to allow loading files from disk). For local use `./server.sh`
 - Browse for your file (SVG or other)
 - Click the download button to download 
 
